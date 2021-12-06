@@ -229,12 +229,13 @@ img {
   }
   .proof-1,
   .proof-2 {
+    display: block;
     width: 80%;
-    grid-template-columns: 1fr;
     margin: 0 auto 2rem;
   }
 
   .testimony-2 {
+    display: block;
     width: 80%;
     margin: 1rem auto 0;
   }
