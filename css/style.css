@@ -100,10 +100,10 @@ p {
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .container {
@@ -122,7 +122,6 @@ body {
   align-items: center;
   height: 100%;
 }
-
 
 .btn {
   display: inline-block;
@@ -170,15 +169,15 @@ img {
 }
 
 .banner {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .banner-content {
-    text-align: center;
+  text-align: center;
 }
 
-.banner-heading {  
-    font-size: 2.6rem;
+.banner-heading {
+  font-size: 2.6rem;
 }
 
 .banner-btn {
@@ -186,48 +185,59 @@ img {
 }
 
 .banner-profile {
-    width: 30%;
-    margin: 3rem auto 0;
+  width: 30%;
+  margin: 3rem auto 0;
 }
 
 .banner-info {
-    margin-top: 2rem;
-    font-size: 1.5rem;    
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .story-focus {
-    color: var(--clr-red-dark);
+  color: var(--clr-red-dark);
 }
 
 /* Global Styles */
 @media screen and (max-width: 576px) {
-      .container {
-        width: 100%;
-      }
-      p {
-        font-size: 1rem;
-      }
-      .story-focus {
-      text-align: center;
-      margin-top: 1.5rem;
-      }
-      .banner-profile {
-      width: 60%;
-      margin: 1rem auto 0;
-      }
-    footer p {
+  .container {
+    width: 100%;
+  }
+  p {
     font-size: 1rem;
-    }
-    .testimony-1 {
-    display: block;    
+  }
+  .story-focus {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .banner-profile {
+    width: 60%;
+    margin: 1rem auto 0;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .testimony-1 {
+    display: block;
     text-align: center;
     margin: 0 auto;
-    }
-  
-    .pay-img {
-    width: 50%;
+  }
+
+  .pay-img {
+    width: 80%;
     margin: 0 auto;
-    }
+  }
+  .proof-1,
+  .proof-2 {
+    width: 80%;
+    grid-template-columns: 1fr;
+    margin: 0 auto 2rem;
+  }
+
+  .testimony-2 {
+    width: 80%;
+    margin: 1rem auto 0;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -252,7 +262,6 @@ img {
   h4 {
     line-height: 1;
   }
-
 }
 /*  global classes */
 
@@ -389,16 +398,16 @@ section {
 }
 
 .story p {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .story-btn {
-    text-align: center;
+  text-align: center;
 }
 
 .fab {
   font-size: 2rem;
-  margin: 0 .3rem;
+  margin: 0 0.3rem;
 }
 
 .fa-whatsapp {
@@ -413,8 +422,8 @@ section {
   color: #1877f2;
 }
 
-footer {    
-    background-color: var(--clr-grey-9);
+footer {
+  background-color: var(--clr-grey-9);
 }
 
 footer p {
