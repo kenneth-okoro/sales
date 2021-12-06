@@ -229,14 +229,12 @@ img {
   }
   .proof-1,
   .proof-2 {
-    display: block;
-    width: 80%;
+    width: 100% !important;
     margin: 0 auto 2rem;
   }
 
   .testimony-2 {
-    display: block;
-    width: 80%;
+    width: 100% !important;
     margin: 1rem auto 0;
   }
 }
