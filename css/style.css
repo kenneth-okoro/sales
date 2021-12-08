@@ -368,7 +368,6 @@ footer p {
   width: 100%;
 }
 
-
 @media screen and (max-width: 576px) {
   .container {
     width: 100%;
@@ -404,8 +403,12 @@ footer p {
   }
 
   .testimony-2 {
+    margin-top: -0.1rem;
     width: 100% !important;
-    margin: 1rem auto 0;
+  }
+  .testimony-2 img {
+    display: block;
+    margin: 0 auto;
   }
 }
 
